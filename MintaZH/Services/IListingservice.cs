@@ -1,0 +1,14 @@
+﻿using MintaZH.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MintaZH.Services
+{
+    public interface IListingService
+    {
+        void ListAll(IList<Fixture> fixtures);
+    }
+}
